@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="maven.nikhil.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="maven.nikhil.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- maven.nikhil.ValidateTitle -->
+      <class name="maven.nikhil.HomePage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- maven.nikhil.HomePage -->
+      <class name="maven.nikhil.validateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- maven.nikhil.validateNavigationBar -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="maven.nikhil.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- maven.nikhil.ValidateTitle -->
+      <class name="maven.nikhil.HomePage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- maven.nikhil.HomePage -->
+      <class name="maven.nikhil.validateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- maven.nikhil.validateNavigationBar -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test parallel="tests" name="Test3(failed)">
+    <classes>
+      <class name="maven.nikhil.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- maven.nikhil.ValidateTitle -->
+      <class name="maven.nikhil.HomePage">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- maven.nikhil.HomePage -->
+      <class name="maven.nikhil.validateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- maven.nikhil.validateNavigationBar -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+19:33:29.231 [main] INFO  resources.Central - driver is initialized
+19:37:37.233 [TestNG] INFO  resources.Central - driver is initialized
+19:37:37.233 [TestNG] INFO  resources.Central - driver is initialized
+19:37:37.233 [TestNG] INFO  resources.Central - driver is initialized
+19:39:52.507 [TestNG] INFO  resources.Central - driver is navigated to home page
+19:39:54.206 [TestNG] INFO  resources.Central - successfull
+20:22:48.166 [TestNG] INFO  resources.Central - driver is initialized
+20:22:48.166 [TestNG] INFO  resources.Central - driver is initialized
